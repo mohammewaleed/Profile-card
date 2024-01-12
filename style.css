@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Courier New", Courier, monospace;
+  background-color: aquamarine;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e5e5f7;
+  background-image: radial-gradient(
+    #444cf7 0.6000000000000001px,
+    #e5e5f7 0.6000000000000001px
+  );
+  background-size: 1.2rem 1.2rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 1rem;
+  min-width: 35rem;
+  overflow: hidden;
+}
+
+.top_box {
+  height: 10rem;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #e5e5f7 1rem
+    ),
+    repeating-linear-gradient(#444cf755, #444cf7);
+}
+
+.about-me {
+  text-align: center;
+  margin: 0 auto;
+  z-index: 1;
+  margin-top: -6rem;
+}
+
+.image_profile {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: 0.4rem solid white;
+}
+
+.socila_acconts {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-top: 0.1rem solid #c4c4c4;
+  margin-top: 3rem;
+}
+
+.column {
+  flex: 1;
+  padding: 1.8rem 1.5rem;
+}
+
+.column:nth-child(2) {
+  border-right: 1px solid #c4c4c4;
+  border-left: 1px solid #c4c4c4;
+}
+.tit {
+  font-size: 2.2rem;
+}
+
+.jop_title {
+  font-size: 1.6rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.username {
+  font-size: 1.2rem;
+}
